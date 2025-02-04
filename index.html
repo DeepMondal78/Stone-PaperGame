@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Stone|Paper|Scissors-Game</title>
+</head>
+
+<body>
+    
+    <div class="heading">
+        <h1>Stone|Paper|Scissors-Game</h1>
+    </div>
+    <div class="game-info">
+        <div class="game">
+            <div class="counter">
+                <div class="you">
+                    <h1>YOU</h1>
+                    <span id="your_score">0</span>
+                    <p id="text"></p>
+                </div>
+                <hr>
+                <div class="computer">
+                    <h1>COMPUTER</h1>
+                    <span id="computer_score">0</span>
+                    <p id="text2"></p>
+                </div>
+            </div>
+
+            <ul class="result">
+                Result:
+                <p id="show_result"></p>
+            </ul>
+
+            <div class="start-game">
+                <div class="stone">
+                    <img src="images/image-removebg-preview (1).png" alt="">
+                    <p>Stone</p>
+                </div>
+                <div class="paper">
+                    <img src="images/image-removebg-preview (3).png" alt="">
+                    <p>Paper</p>
+                </div>
+                <div class="scissors">
+                    <img src="/images/image-removebg-preview (2).png" alt="">
+                    <p>Scissors</p>
+                </div>
+               
+            </div>
+
+            <div class="button">
+                <button id="restartBtn">Restart!</button>
+
+            </div>
+
+        </div>
+        
+    </div>
+    <div class="loding" id="loading_bar">
+        <p id="persent"></p>
+    </div>
+
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
